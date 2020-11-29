@@ -1,0 +1,77 @@
+body {
+    background-color: rgb(167, 192, 238);
+}
+nav {
+    background-color: cornflowerblue;
+}
+.navbar-brand {
+    font-weight: 600;
+}
+.nav-link {
+    padding-left: 10px;
+    transition: .3s;
+}
+.judul {
+    margin-top: 120px;
+    margin-bottom: 40px;
+}
+.ilust {
+    padding: 80px 0;
+    width: 300px;
+    height: 213px;
+    background-size: cover;
+    margin: auto;
+}
+img {
+    width: 300px;
+    height: 213px;
+    text-align: center;
+}
+.btn-submit {
+    margin-top: 15px;
+}
+
+
+
+.nav-link:hover {
+    transform: translate(0, -2px);
+}
+
+.footer-copyright {
+    padding: 5px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: cornflowerblue;
+}
+.footer-copyright p {
+    margin-top: 10px;
+    font-weight: 500;
+}
+.footer-con {
+    height: 300px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+
+@media only screen and (max-width: 768px) {
+    label {
+        margin-top: -10px;
+    }
+    .col-submit {
+        margin-right: 10px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    label {
+        margin-top: -10px;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .tgl-lahir {
+        padding: 15px;
+    }
+}
