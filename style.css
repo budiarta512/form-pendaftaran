@@ -8,8 +8,9 @@ nav {
     font-weight: 600;
 }
 .nav-link {
-    padding-left: 10px;
+    margin-left: 20px;
     transition: .3s;
+    text-transform: uppercase;
 }
 .judul {
     margin-top: 120px;
@@ -30,11 +31,16 @@ img {
 .btn-submit {
     margin-top: 15px;
 }
-
-
-
-.nav-link:hover {
-    transform: translate(0, -2px);
+.nav-link::after {
+    content: "";
+    margin: auto;
+    width: 0;
+    border-bottom: solid rgb(223, 246, 255);
+    display: block;
+    transition: .5s ease;
+}
+.nav-link:hover::after {
+    width: 50%;
 }
 
 .footer-copyright {
